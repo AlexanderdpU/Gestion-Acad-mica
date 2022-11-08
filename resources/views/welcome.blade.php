@@ -52,8 +52,8 @@
                                 <img src="https://www.fcbarcelonanoticias.com/uploads/s1/22/93/28/gerardpique-harvard-229328.jpeg" alt="">
 
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5 _msthash="1293084" _msttexthash="795847">UNIVERSIDAD</h5>
-                                    <p _msthash="1265459" _msttexthash="3833947">INVESTIGACIÓN</p>
+                                    <h5 _msthash="1293084" _msttexthash="795847" style="color: white">UNIVERSIDAD</h5>
+                                    <p _msthash="1265459" _msttexthash="3833947" style="color: white">INVESTIGACIÓN</p>
                                 </div>
                             </div>
                             <div class="carousel-item" data-bs-interval="2000" _mstvisible="0">
@@ -61,16 +61,16 @@
 
 
                                 <div class="carousel-caption d-none d-md-block" _mstvisible="1">
-                                    <h5 _msthash="1293565" _msttexthash="794677" _mstvisible="2">MATRICULA</h5>
-                                    <p _msthash="1265940" _msttexthash="3827044" _mstvisible="2">INVESTIGACION</p>
+                                    <h5 _msthash="1293565" _msttexthash="794677" _mstvisible="2" style="color: white">MATRICULA</h5>
+                                    <p _msthash="1265940" _msttexthash="3827044" _mstvisible="2" style="color: white">INVESTIGACION</p>
                                 </div>
                             </div>
                             <div class="carousel-item active" _mstvisible="0">
                                 <img src="https://concatenate.io/wp-content/uploads/2020/02/web-development-bootcamps.jpg" alt="">
 
                                 <div class="carousel-caption d-none d-md-block" _mstvisible="1">
-                                    <h5 _msthash="1294046" _msttexthash="794612" _mstvisible="2">VIDA UNIVERSITARIA</h5>
-                                    <p _msthash="1266421" _msttexthash="3826342" _mstvisible="2">"Preparamos a los estudiantes para una vida bien vivida para que puedan perseguir su propósito y tener un impacto significativo en la sociedad."</p>
+                                    <h5 _msthash="1294046" _msttexthash="794612" _mstvisible="2" style="color: white">VIDA UNIVERSITARIA</h5>
+                                    <p _msthash="1266421" _msttexthash="3826342" _mstvisible="2" style="color: white; font-family: cursive">"Preparamos a los estudiantes para una vida bien vivida para que puedan perseguir su propósito y tener un impacto significativo en la sociedad."</p>
                                 </div>
                             </div>
                         </div>
