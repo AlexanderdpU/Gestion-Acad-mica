@@ -29,6 +29,10 @@ Route::get('/administrador', function () {
     return view('administrador');
 });
 
+Route::get('/historial', function () {
+    return view('historial');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
