@@ -5,33 +5,72 @@
     <title>Alumno</title>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
 </head>
 <body>
-<div id="container">
-    <header>
-        <h1>Alumno</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-        <hgroup>
-            <h1>Main Section</h1>
-            <h2>This is a sample HTML5 Page</h2>
-        </hgroup>
-        <article>
-            <p>Content of the first article</p>
-        </article>
-        <article>
-            <p>Content of the second article</p>
-        </article>
-    </section>
-    <footer>
-        <p>This is the Footer of the web document</p>
-    </footer>
+<!-- Navs -->
+<nav class="nav ">
+    <a class="nav-link active" aria-current="page" href="#">Welcome</a>
+    <a class="nav-link" href="#">Home</a>
+    <a class="nav-link" href="#">Historial Académico</a>
+</nav>
+<div class="row">
+    <!-- Datos alumno -->
+    <div class="col-md-3">
+        <ul class="list-group">
+            <li class="list-group-item">Alumno:</li>
+            <li class="list-group-item">Alexander Dominguez Pilco</li>
+        </ul>
+    </div>
+<!-- Table -->
+    <div class="col-md-9">
+<table class="table table-hover">
+    <thead>
+    <tr>
+        <th scope="col">#</th>
+        <th scope="col">Curso</th>
+        <th scope="col">Semestre</th>
+        <th scope="col">Seleccionar</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th scope="row">1</th>
+        <td>Redes y Telecomunicaciones I</td>
+        <td>V</td>
+        <td>
+            <div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">2</th>
+        <td>Calculo I</td>
+        <td>VI</td>
+        <td>
+            <div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <th scope="row">3</th>
+        <td>Lenguaje de Programacion</td>
+        <td>VIII</td>
+        <td>
+            <div>
+                <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
+            </div>
+        </td>
+    </tr>
+    </div>
+    </tbody>
+</table>
+<div class="d-grid gap-2 d-md-flex justify-content-md-end">
+    <button type="button" class="btn btn-outline-primary">Matricular</button>
 </div>
+</div>
+
 </body>
 </html>
