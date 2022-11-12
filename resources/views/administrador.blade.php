@@ -12,8 +12,8 @@
         <h1>Administrador</h1>
         <nav>
             <ul>
-                <li><a href="#">Welcome</a></li>
-                <li><a href="#">Home</a></li>
+                <li><a href="{{ url('/') }}">Welcome</a></li>
+                <li><a href="{{ url('/home') }}">Home</a></li>
             </ul>
         </nav>
     </header>

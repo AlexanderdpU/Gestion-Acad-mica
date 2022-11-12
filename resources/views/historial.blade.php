@@ -10,9 +10,9 @@
 <body>
 <!-- Navs -->
 <nav class="nav ">
-    <a class="nav-link active" aria-current="page" href="#">Welcome</a>
-    <a class="nav-link" href="#">Home</a>
-    <a class="nav-link" href="#">Matricula</a>
+    <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Welcome</a>
+    <a class="nav-link" href="{{ url('/home') }}">Home</a>
+    <a class="nav-link" href="{{ url('/alumno') }}">Matricula</a>
 </nav>
 <div class="row">
     <!-- Datos alumno -->
@@ -30,7 +30,7 @@
                 <th scope="col">#</th>
                 <th scope="col">Cursos llevados</th>
                 <th scope="col">Semestre</th>
-                <th scope="col"># veces</th>
+                <th scope="col"># veces llevados</th>
             </tr>
             </thead>
             <tbody>

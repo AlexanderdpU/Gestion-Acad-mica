@@ -10,9 +10,9 @@
 <body>
 <!-- Navs -->
 <nav class="nav ">
-    <a class="nav-link active" aria-current="page" href="#">Welcome</a>
-    <a class="nav-link" href="#">Home</a>
-    <a class="nav-link" href="#">Historial Académico</a>
+    <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Welcome</a>
+    <a class="nav-link" href="{{ url('/home') }}">Home</a>
+    <a class="nav-link" href="{{ url('/historial') }}">Historial Académico</a>
 </nav>
 <div class="row">
     <!-- Datos alumno -->
