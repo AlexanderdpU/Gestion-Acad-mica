@@ -15,7 +15,9 @@ return new class extends Migration
     {
         Schema::create('administradors', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string("nombre");
+            $table->string("apellido");
+            $table->foreignId("docente_id")->constrained("docentes");
         });
     }
 

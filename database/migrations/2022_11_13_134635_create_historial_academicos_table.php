@@ -15,7 +15,9 @@ return new class extends Migration
     {
         Schema::create('historial_academicos', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string("cursosLlevados");
+            $table->string("semestre");
+            $table->integer("vecesLlevados");
         });
     }
 
