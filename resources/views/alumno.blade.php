@@ -37,7 +37,7 @@
     <tr>
         <th scope="row">1</th>
         <td>Redes y Telecomunicaciones I</td>
-        <td>V</td>
+        <td>VI</td>
         <td>
             <div>
                 <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
@@ -57,7 +57,7 @@
     <tr>
         <th scope="row">3</th>
         <td>Lenguaje de Programacion</td>
-        <td>VIII</td>
+        <td>VI</td>
         <td>
             <div>
                 <input class="form-check-input" type="checkbox" id="checkboxNoLabel" value="" aria-label="...">
