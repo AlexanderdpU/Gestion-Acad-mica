@@ -23,6 +23,7 @@ class HomeController extends Controller
      */
     public function index()
     {
+        session(["tipo" => User::where("id", Auth::id())->first()->tipo]);
         return view('home');
     }
 }

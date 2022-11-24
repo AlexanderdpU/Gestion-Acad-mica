@@ -13,8 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    {{ __('Bienvenido alumno o docente') }}
+                    <h1>{{session("tipo")}}</h1>
+                    {{ __('Bienvenido tu estas logeado') }}
                 </div>
             </div>
         </div>

@@ -30,6 +30,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav me-auto">
+                        @auth
+                            @if(session('tipo')=="Estudiante")
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/alumno"> Parte del ALUMNO</a>
+                                </li>
+                            @endif
+                                <li class="nav-item">
+                                    <a class="nav-link" href="/docente"> Parte del docente</a>
+                                </li>
+                        @endauth
 
                     </ul>
 
